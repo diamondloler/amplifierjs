@@ -1,0 +1,138 @@
+
+/* Reset */
+body,
+dl,
+dt,
+dd,
+p,
+table,
+tr,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: Helvetica, Arial, "黑體-繁", "Heiti TC", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+    line-height: 1;
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 25px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+object,
+iframe {
+    display: block;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+button {
+    transition: all .3s ease-out;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.08),0 1px 1px 0 rgba(0,0,0,.08);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1A5276;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+textarea {
+    overflow-y: auto;
+    resize: none;
+}
+
+a,
+input,
+textarea {
+    text-decoration: none;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+area {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    transition: all .1s ease;
+}
+
+a:hover {
+    color: rgb(129, 202, 239)!important;
+}
+
+input[type="text"],
+input[type="submit"] {
+    box-sizing: border-box;
+    border: 0;
+}

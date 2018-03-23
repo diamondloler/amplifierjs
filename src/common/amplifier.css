@@ -1,0 +1,38 @@
+.amplifier_img {
+    cursor: zoom-in;
+    position: relative;
+    transition: all .35s;
+    width: 300px;
+}
+
+.amplifier_mask {
+    background: #fff;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .35s;
+    width: 100%;
+}
+
+.zoom-img-wrapper {
+    position: relative;
+    transition: all .35s;
+    width: 300px;
+}
+
+.amplifier_fade {
+    opacity: 0.8;
+     z-index: 1000;
+}
+
+.amplifier_scale {
+    cursor: zoom-out;
+    transform: scale(2.5);
+}
+
+.zoom-img-wrapper.amplifier_maxIndex {
+    z-index: 9999!important;
+}

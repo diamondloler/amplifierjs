@@ -1,8 +1,7 @@
 .amplifier_img {
     cursor: zoom-in;
     position: relative;
-    transition: all .35s;
-    width: 300px;
+    transition: all .35s;  
 }
 
 .amplifier_mask {
@@ -20,7 +19,6 @@
 .zoom-img-wrapper {
     position: relative;
     transition: all .35s;
-    width: 300px;
 }
 
 .amplifier_fade {

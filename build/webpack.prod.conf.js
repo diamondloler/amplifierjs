@@ -13,7 +13,7 @@ module.exports = merge(baseWebpackConfig, {
                 use: [{
                         loader: 'css-loader',
                         options: {
-                            modules: true,
+                            modules: false,
                             minimize: true,
                             sourceMap: true
                         }

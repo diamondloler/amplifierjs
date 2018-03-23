@@ -1,5 +1,6 @@
 
-
+import './common/amplifier.css'
+import './assets/images/edson.jpg'
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define([], function () {

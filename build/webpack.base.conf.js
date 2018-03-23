@@ -34,7 +34,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                   limit: 10000,
-                  name: '../img/[name].[hash:7].[ext]'
+                  name: '../dist/img/[name].[hash:7].[ext]'
                 }
               },
               {
@@ -42,7 +42,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                   limit: 10000,
-                  name:'../media/[name].[hash:7].[ext]'
+                  name:'../dist/media/[name].[hash:7].[ext]'
                 }
               },
               {
@@ -50,7 +50,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                   limit: 10000,
-                  name: '../fonts/[name].[hash:7].[ext]'
+                  name: '../dist/fonts/[name].[hash:7].[ext]'
                 }
               }
         ]

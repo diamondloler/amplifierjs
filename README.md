@@ -21,7 +21,7 @@ Amplifier is an zoom-in and zoom-out library. It 's very light weight, can easil
 <li><code>onClose</code> - same as <code>onOpen</code>, except fired when zoomed out.</li>
 <li><code>onBeforeOpen</code> - a callback function, that will be called before zoom-in.</li>
 <li><code>onBeforeClose</code> - a callback function, that will be called before zoom-out.</li>
-<li><code>display</code>  - default: <code>'block'</code>, set dynamic generate image parentNode's property of display.</li>
+<li><code>display</code>  - default: <code>'block'</code>, set dynamically generate image parentNode's property of display.</li>
 <li><code>scale</code> - default: <code>type: number value: 2</code>, that will be handle image scale.</li>
 </ul>
   </li>

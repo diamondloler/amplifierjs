@@ -33,5 +33,8 @@ Amplifier is an zoom-in and zoom-out library. It 's very light weight, can easil
     </p>
   </li>
 </ul>
+<h2>License</h2>
+<p>MIT</p>
+<p>Brought to you by 857276958@qq.com</p>
 
 

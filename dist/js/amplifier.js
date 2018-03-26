@@ -178,8 +178,7 @@
      * @return {HTMLElement}
      */
     var createMask = function () {
-      var mask_el = null
-      mask_el = document.createElement('div')
+      var mask_el = document.createElement('div')
       return setStyle(mask_el, {
         backgroundColor: options.bgColor,
         position: 'fixed',

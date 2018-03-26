@@ -13,8 +13,7 @@ Amplifier is an zoom-in and zoom-out library. It 's very light weight, can easil
 <ul>
   <li>
     <h4>amplifier(selector, myImageClassName).init(options)</h4>
-    <p>Implement zoom-in and zoom-out and takes an options object. Available options (all options take valid CSS values):</p>
-   <ul>
+    <p>Implement zoom-in and zoom-out and takes an options object. Available options (all options take valid CSS values):</p><ul>
 <li><code>transitionDuration</code> - default: <code>'.4s'</code></li>
 <li><code>transitionTimingFunction</code> - default: <code>'cubic-bezier(.4,0,0,1)'</code></li>
 <li><code>bgColor</code> - default: <code>'rgba(255, 255, 255, 0.8)'</code></li>

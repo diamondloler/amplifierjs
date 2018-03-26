@@ -123,9 +123,8 @@
      * @param {HTMLElment} timeString a string with time, like 0.34s
      * @return {Number} return number
      */
-    var timePatch = function (timeString) {
-      timeString = timeString.replace('s', '')
-      if (timeString.indexOf('.') == 0)  timeString = '0' + timeString
+    var timePatch = function (timeString) { 
+      if (timeString.indexOf('.') == 0)  timeString = '0' + timeString.replace('s', '')
       return Number(timeString) * 1000
     }
 

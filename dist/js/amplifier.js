@@ -166,7 +166,7 @@
           domBody.removeChild(maskElement)
           removeImgWrapper(centerElement)
           if (typeof options.onClose === 'function') {
-            options.onClose()
+            options.onClose(scaleElement)
           }
         }, timePatch(options.transitionDuration))
 
@@ -230,7 +230,7 @@
             setStyle(els[len], styleList[len])
 
           if (typeof options.onOpen === 'function') {
-              options.onOpen()
+              options.onOpen(scaleElement)
           }
 
       }, 6)

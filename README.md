@@ -8,9 +8,7 @@ Amplifier is a zoom-in and zoom-out library. It 's very light weight, can easily
 <h2>Usage</h2>
 <p>Include with a script tag, or install with your package manager of choice (Bower/Component/npm).</p>
 <div class="highlight highlight-source-js"><pre><span class="pl-smi">amplifier</span>(selector, myImageClassName)</pre></div>
-<ul>
-  <li><code>selector</code> - <code>type: selector</code> through selector find the proxy of click event.</li>
-  <li><code>myImageClassName</code> - <code>type: string</code> The className of the clicked image.</li></ul>
+<ul><li><code>selector</code> - <code>type: selector</code> through selector find the proxy of click event.</li><li><code>myImageClassName</code> - <code>type: string</code> The className of the clicked image.</li></ul>
 <p>Now, amplifier not yet implement zoom-in or zoom-out, it will output a public apis, you can suitably use apis to implement zoom-in or zoom-out that you want</p>
 <h2>API Reference</h2>
 <ul>
